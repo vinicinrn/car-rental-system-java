@@ -1,0 +1,7 @@
+#Interface
+
+Interface é um tipo que define um conjunto de  que uma classe deve implementar.
+A interface estabelece um *contrato* que a classe deve cumprir.
+
+Objetivo
+-Criar sistemas com baixo acomplamento e flexíveis
