@@ -1,7 +1,15 @@
-#Interface
+##Interface
 
 Interface é um tipo que define um conjunto de  que uma classe deve implementar.
 A interface estabelece um *contrato* que a classe deve cumprir.
 
-Objetivo
+#Objetivo
 -Criar sistemas com baixo acomplamento e flexíveis
+
+
+#Inversão de controle
+-Retira da classe a responsabilidade de instanciar suas dependências;
+(Exemplo: A classe RentalService não pode ser responsável por instanciar o TaxService);
+
+    •Injeção de dependência
+        É uma forma de realizar inversão de controle - um componente externo instancia a dependência que é então injetada no objeto "pai".
